@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🛡️ Muhammad Syafiq
+#  Muhammad Syafiq
 ### SOC Analyst · Defensive Security Practitioner · Web Application Security
 
 <p align="center">
