@@ -8,7 +8,7 @@
 </p>
 
 <p align="center">
-  <a href="https://muhammadsyafiq.netlify.app/">
+  <a href="https://6ab286c11f98b465f0436af0--charming-squirrel-bcff68.netlify.app/">
     <img src="https://img.shields.io/badge/Live_Portfolio-10b981?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live Portfolio"/>
   </a>
   <a href="https://github.com/icebergf6">
