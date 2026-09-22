@@ -1,229 +1,156 @@
-
 <div align="center">
 
-# Muhammad Syafiq
+# 🛡️ Muhammad Syafiq
+### SOC Analyst · Defensive Security Practitioner · Web Application Security
 
-### Full-Stack Web Developer · Web Security · Cybersecurity
+<p align="center">
+  Bridging full-stack development and security operations — analyzing telemetry, hunting anomalies, and engineering detection logic.
+</p>
 
-Building practical web applications, exploring application security, and strengthening cybersecurity fundamentals through hands-on learning.
-
-<p>
+<p align="center">
   <a href="https://muhammadsyafiq.netlify.app/">
-    <img src="https://img.shields.io/badge/Portfolio-Visit-111827?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Portfolio"/>
+    <img src="https://img.shields.io/badge/Live_Portfolio-10b981?style=for-the-badge&logo=google-chrome&logoColor=white" alt="Live Portfolio"/>
   </a>
-  <a href="https://github.com/USERNAME_KAMU">
-    <img src="https://img.shields.io/badge/GitHub-Profile-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub"/>
+  <a href="https://github.com/icebergf6">
+    <img src="https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github&logoColor=white" alt="GitHub Profile"/>
+  </a>
+  <a href="https://linkedin.com/">
+    <img src="https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white" alt="LinkedIn Profile"/>
+  </a>
+  <a href="mailto:contact@muhammadsyafiq.com">
+    <img src="https://img.shields.io/badge/Direct_Email-EA4335?style=for-the-badge&logo=gmail&logoColor=white" alt="Email"/>
   </a>
 </p>
 
-<img src="https://komarev.com/ghpvc/?username=USERNAME_KAMU&style=flat-square&color=2563eb" alt="Profile views"/>
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=icebergf6&style=flat-square&color=10b981&label=TELEMETRY+PROFILE+VIEWS" alt="Profile Views"/>
+</p>
 
 </div>
 
 ---
 
-## 👋 About Me
-
-I'm **Muhammad Syafiq**, a Full-Stack Web Developer focused on building modern, functional, and maintainable web applications.
-
-Alongside web development, I'm developing practical cybersecurity skills through networking fundamentals, Linux, web application security, and controlled security labs.
-
-My learning approach combines **building, testing, documenting, and continuously improving**.
+## ⚡ Operational Status & Identity
 
 ```yaml
-name: Muhammad Syafiq
-focus:
-  - Full-Stack Web Development
-  - Web Application Security
-  - Cybersecurity Fundamentals
-learning:
-  - Networking & TCP/IP
-  - Linux & Security Tools
-  - Application Security
-  - Python Automation
+soc_operator:
+  handle: icebergf6
+  name: Muhammad Syafiq
+  status: "Tier-1 / Tier-2 SOC Analyst Ready"
+  time_zone: "Asia/Jakarta (UTC+7)"
+  core_frameworks:
+    - "MITRE ATT&CK (Adversary TTP Mapping)"
+    - "NIST SP 800-61 (Computer Security Incident Handling)"
+    - "Cyber Kill Chain (Lockheed Martin)"
+  defensive_focus:
+    - "Log Triage & SIEM Alert Engineering"
+    - "PCAP & Network Anomaly Inspection"
+    - "Windows Security Event & Sysmon Telemetry"
+    - "Secure Web Architecture & Code Hardening"
 ```
 
-### Current Direction
-
-- 💻 Developing responsive full-stack web applications.
-- 🛡️ Learning web application security and cybersecurity fundamentals.
-- 🐍 Using Python and Bash for scripting and automation practice.
-- 🧪 Practicing technical concepts through controlled environments.
-- 📚 Documenting learning progress and technical projects.
-
 ---
 
-## 🧰 Tech Stack
+## 🧰 Security Operations Stack & Tool Arsenal
 
-### Frontend Development
-
+### 🔍 SIEM, XDR & Log Analytics
 <p>
-  <img src="https://skillicons.dev/icons?i=react,js,ts,html,css" alt="Frontend technologies"/>
+  <img src="https://img.shields.io/badge/Wazuh-XDR_&_SIEM-007ACC?style=flat-square&logo=wazuh&logoColor=white" alt="Wazuh"/>
+  <img src="https://img.shields.io/badge/Splunk-SPL_Analysis-FF8800?style=flat-square&logo=splunk&logoColor=white" alt="Splunk"/>
+  <img src="https://img.shields.io/badge/Elastic-ELK_Stack-005571?style=flat-square&logo=elastic&logoColor=white" alt="Elasticsearch"/>
+  <img src="https://img.shields.io/badge/Sysmon-Host_Telemetry-2496ED?style=flat-square" alt="Sysmon"/>
 </p>
 
-### Backend & Database
-
+### 📡 Network Forensics & Deep Packet Inspection
 <p>
-  <img src="https://skillicons.dev/icons?i=laravel,php,mongodb,mysql,supabase" alt="Backend and database technologies"/>
+  <img src="https://img.shields.io/badge/Wireshark-PCAP_Analysis-1679A7?style=flat-square&logo=wireshark&logoColor=white" alt="Wireshark"/>
+  <img src="https://img.shields.io/badge/tcpdump-CLI_Capture-000000?style=flat-square" alt="tcpdump"/>
+  <img src="https://img.shields.io/badge/Zeek-Network_Security_Monitor-654FF0?style=flat-square" alt="Zeek"/>
+  <img src="https://img.shields.io/badge/Nmap-Recon_&_Audit-222222?style=flat-square" alt="Nmap"/>
 </p>
 
-### Cybersecurity & Systems
-
+### ⚔️ Threat Intel, DFIR & Assessment
 <p>
-  <img src="https://skillicons.dev/icons?i=python,bash,linux,kali" alt="Cybersecurity and systems technologies"/>
+  <img src="https://img.shields.io/badge/Burp_Suite-Web_Security-FF6633?style=flat-square&logo=burpsuite&logoColor=white" alt="Burp Suite"/>
+  <img src="https://img.shields.io/badge/Velociraptor-Endpoint_DFIR-333333?style=flat-square" alt="Velociraptor"/>
+  <img src="https://img.shields.io/badge/VirusTotal-Threat_Intel-3949AB?style=flat-square&logo=virustotal&logoColor=white" alt="VirusTotal"/>
+  <img src="https://img.shields.io/badge/YARA-Signature_Hunting-5C6BC0?style=flat-square" alt="YARA"/>
 </p>
 
-### Tools & Platforms
-
+### 💻 Systems, Scripting & Engineering
 <p>
-  <img src="https://skillicons.dev/icons?i=git,github,docker,postman,netlify,vercel" alt="Tools and platforms"/>
+  <img src="https://skillicons.dev/icons?i=python,bash,linux,kali,docker,git,nextjs,react,ts,supabase" alt="Dev and Infrastructure Skills"/>
 </p>
 
 ---
 
-## 🛡️ Cybersecurity Learning
+## 🔬 Incident Response & Triage Flow
 
-Developing a strong technical foundation in cybersecurity through structured study and hands-on practice.
-
-### Learning Roadmap
-
-| Domain | Focus |
-|---|---|
-| Networking | TCP/IP, OSI, IP Addressing, Subnetting |
-| Linux | CLI, Permissions, Processes, System Fundamentals |
-| Web Security | HTTP, Authentication, Authorization, Common Vulnerabilities |
-| Reconnaissance | Information Gathering in Authorized Environments |
-| Security Labs | Practical Exercises, CTFs, Technical Documentation |
-| Automation | Python & Bash Scripting |
-
-### Learning Methodology
+Investigasi ancaman dilakukan dengan standar verifikasi data telemetri ketat:
 
 ```text
-Understand
-    ↓
-Practice in a Controlled Environment
-    ↓
-Analyze Results
-    ↓
-Document Findings
-    ↓
-Improve & Repeat
+[ SIEM Alert / Ingestion ]
+           │
+           ▼
+   [ Alert Triage ] ──(Benign / False Positive)──> Tune Threshold / Whitelist
+           │
+     (True Positive)
+           ▼
+[ Evidence Collection ] ──> Correlate Sysmon, Inspect PCAP traces, Query Log Storage
+           │
+           ▼
+[ Adversary Mapping ] ───> Pinpoint Tactics & Techniques via MITRE ATT&CK
+           │
+           ▼
+[ Containment Action ] ──> Isolate Host, Revoke Session/Token, Block Malicious C2 IP
+           │
+           ▼
+[ Incident Report ] ────> Document Sanitized IoCs, Detection Queries & Hardening Steps
 ```
 
-> Security testing is conducted only in authorized environments, personal labs, and platforms designed for security education.
+---
+
+## 📁 Key Technical Repositories
+
+### 🛡️ [soc-analyst-portfolio](https://github.com/icebergf6/soc-analyst-portfolio)
+**Enterprise Defensive Security Showcase & Homelab Documentation**
+- Memuat laporan insiden investigasi mendalam (*SSH Brute-Force*, *C2 Beaconing*, *Phishing Triage*).
+- Dilengkapi kueri deteksi nyata (Splunk SPL, KQL, Wireshark display filters).
+- UI modern bernuansa *high-contrast dark mode* dengan *tools marquee* dan arsitektur homelab interaktif.
+
+### 💬 [TelegramKW](https://github.com/icebergf6/TelegramKW)
+**Anonymous Real-Time Messaging Architecture**
+- Platform pesan instan aman berbasis **Next.js** dan **Supabase**.
+- Mengimplementasikan sesi aman tanpa jejak persisten, validasi input terhadap injeksi, dan *Realtime Row-Level Security*.
+
+### 📊 [TrustFlow_Biz](https://github.com/icebergf6/TrustFlow_Biz)
+**Secured Financial & Credit Ledger System**
+- Dasbor pembukuan keuangan berbasis **React**, **Tailwind CSS**, dan **Supabase**.
+- Menerapkan isolasi multi-tenant ketat untuk mencegah kebocoran data sensitif (*Broken Object Level Authorization / BOLA mitigation*).
 
 ---
 
-## 🚀 Featured Projects
-
-<!--
-  Projects will be added here after selecting repositories
-  from the current GitHub account.
-
-  Recommended information:
-  - Project name
-  - Short description
-  - Technology stack
-  - Key features
-  - Live demo or repository link
--->
+## 📈 Activity & Security Metrics
 
 <div align="center">
 
-### 🚧 Projects Coming Soon
+<img src="https://github-readme-stats.vercel.app/api?username=icebergf6&show_icons=true&theme=tokyonight&hide_border=true&rank_icon=github" alt="GitHub Metrics"/>
 
-New projects and technical experiments will be documented here.
+<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=icebergf6&layout=compact&theme=tokyonight&hide_border=true&langs_count=8" alt="Top Languages"/>
+
+</div>
+
+<div align="center">
+
+<img src="https://github-readme-activity-graph.vercel.app/graph?username=icebergf6&theme=tokyo-night&hide_border=true" alt="Contribution Graph"/>
 
 </div>
 
 ---
 
-## 📚 Current Learning Focus
-
-<details>
-<summary><strong>01 · Networking Fundamentals</strong></summary>
-
-- OSI & TCP/IP Models
-- IP Addressing
-- Subnetting
-- DNS & HTTP
-- Network Troubleshooting
-- Packet Flow Fundamentals
-
-</details>
-
-<details>
-<summary><strong>02 · Web Application Security</strong></summary>
-
-- Authentication & Authorization
-- Input Validation
-- Session Security
-- Common Web Vulnerabilities
-- Security Testing Fundamentals
-- Mitigation & Secure Development
-
-</details>
-
-<details>
-<summary><strong>03 · Linux & Security Tools</strong></summary>
-
-- Linux Command Line
-- File Permissions
-- Processes & Services
-- Bash Scripting
-- Nmap
-- Wireshark
-- Burp Suite
-
-</details>
-
-<details>
-<summary><strong>04 · Python Automation</strong></summary>
-
-- Python Fundamentals
-- Scripting
-- File & Data Processing
-- Network-Related Learning Projects
-- Security Automation Concepts
-
-</details>
-
----
-
-## 📊 GitHub Statistics
-
 <div align="center">
 
-<img src="https://github-readme-stats.vercel.app/api?username=USERNAME_KAMU&show_icons=true&theme=transparent&hide_border=true&rank_icon=github" alt="GitHub Statistics"/>
-
-<img src="https://github-readme-stats.vercel.app/api/top-langs/?username=USERNAME_KAMU&layout=compact&theme=transparent&hide_border=true&langs_count=8" alt="Top Languages"/>
-
-</div>
-
----
-
-## 📈 GitHub Activity
-
-<div align="center">
-
-<img src="https://github-readme-activity-graph.vercel.app/graph?username=USERNAME_KAMU&theme=github-compact&hide_border=true" alt="GitHub Activity Graph"/>
-
-</div>
-
----
-
-## 🎯 Development Philosophy
-
-> Build with purpose. Learn through practice. Improve through iteration.
-
-I believe consistent practice, technical curiosity, and documenting what I learn are essential for long-term growth in software development and cybersecurity.
-
----
-
-<div align="center">
-
-### Build · Learn · Secure · Improve
-
-<sub>Continuously developing technical skills through practical projects and hands-on learning.</sub>
+### Monitor · Analyze · Mitigate · Harden
+<sub>Ethical research executed exclusively within isolated virtual environments and authorized targets.</sub>
 
 </div>
