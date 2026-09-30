@@ -5,7 +5,7 @@
 
 <!-- Dynamic Typing Subtitle -->
 <a href="https://charming-squirrel-bcff68.netlify.app/">
-  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&pause=1200&color=10B981&center=true&vCenter=true&width=680&lines=Tier-1+%2F+Tier-2+SOC+Analyst+Ready;High-Fidelity+SIEM+Correlation+(Splunk+SPL%2C+Wazuh%2C+KQL);Host+Telemetry+(Sysmon%2C+EVTX)+%26+PCAP+Deep+Inspection;Adversary+TTP+Mapping+via+MITRE+ATT%26CK;Detection+Engineering+(Sigma%2C+YARA%2C+Custom+Rules);Bridging+Defensive+Security+with+Full-Stack+Engineering" alt="Typing SVG" />
+  <img src="https://readme-typing-svg.demolab.com?font=Fira+Code&weight=600&size=17&pause=1200&color=10B981&center=true&vCenter=true&width=680&lines=Tier-1+%2F+Tier-2+SOC+Analyst+Ready;Next-Gen+Graph+SIEM+%26+SOAR+Engineering;High-Fidelity+SIEM+Correlation+(Splunk+SPL%2C+Wazuh%2C+KQL);Host+Telemetry+(Sysmon%2C+EVTX)+%26+PCAP+Deep+Inspection;Adversary+TTP+Mapping+via+MITRE+ATT%26CK;Autonomous+AI+Cybersecurity+Agent+Development" alt="Typing SVG" />
 </a>
 
 <p align="center">
@@ -36,6 +36,17 @@
 
 ---
 
+## 👤 About Me
+
+I am a **SOC Analyst & Defensive Security Practitioner** with a software engineering background, dedicated to driving down **MTTD (Mean Time to Detect)** and **MTTR (Mean Time to Respond)**. My approach bridges deep system telemetry with automated adversary detection:
+
+- 🛡️ **Defensive Operations**: Experienced in triaging alerts, auditing process lineages (Sysmon, Windows EVTX 4624/4625/4688, Linux `auth.log`), and tracking adversary movement across the **MITRE ATT&CK** matrix.
+- 🔍 **SIEM, Graph Correlation & Forensics**: Builder of next-gen graph-correlated SIEM architectures (**AegisGraph-SOC**), author of high-fidelity **Splunk SPL** & **Wazuh** rules, and packet dissector using **Wireshark** & **Zeek** to detect encrypted C2 beacons.
+- 🤖 **AI-Driven SecOps & Tooling**: Pioneer in creating autonomous security tooling (**gemini-sec-agent**) with multi-key rotation and function calling to automate telemetry triage and rapid incident response.
+- 🎯 **Target Roles**: Tier-1 / Tier-2 SOC Analyst, Detection Engineer, Blue Team Specialist, and Cyber Incident Responder.
+
+---
+
 ## ⚡ Operational Status & Identity
 
 ```yaml
@@ -53,6 +64,8 @@ soc_operator:
     - "MITRE D3FEND (Countermeasure & Hardening Matrix)"
     
   tactical_competencies:
+    - "Graph-Correlated SIEM & Blast Radius Visualization"
+    - "Autonomous AI-Driven Threat Triage & Terminal SecOps"
     - "Multi-Tenant SIEM/XDR Alert Engineering & False Positive Tuning"
     - "Endpoint Forensics: Sysmon, Windows EVTX (4624/4625/4688/4769), Linux auth.log"
     - "Network Protocol Dissection: Wireshark PCAP carving, Zeek conn/ssl/dns logs"
@@ -114,6 +127,7 @@ flowchart TD
 
 ### 🔍 SIEM, XDR & Log Management
 <p>
+  <img src="https://img.shields.io/badge/AegisGraph-Graph_SIEM_&_SOAR-00b4d8?style=flat-square&logo=diagram-next&logoColor=white" alt="AegisGraph"/>
   <img src="https://img.shields.io/badge/Wazuh-XDR_&_SIEM-007ACC?style=flat-square&logo=wazuh&logoColor=white" alt="Wazuh"/>
   <img src="https://img.shields.io/badge/Splunk-SPL_Correlation-FF8800?style=flat-square&logo=splunk&logoColor=white" alt="Splunk"/>
   <img src="https://img.shields.io/badge/Elasticsearch-ELK_Stack-005571?style=flat-square&logo=elastic&logoColor=white" alt="Elasticsearch"/>
@@ -135,6 +149,7 @@ flowchart TD
 <p>
   <img src="https://img.shields.io/badge/Velociraptor-Endpoint_DFIR_(VQL)-333333?style=flat-square" alt="Velociraptor"/>
   <img src="https://img.shields.io/badge/Sigma_Rules-Generic_Signatures-008080?style=flat-square" alt="Sigma"/>
+  <img src="https://img.shields.io/badge/STIX_2.1-CTI_Interchange-43A047?style=flat-square" alt="STIX 2.1"/>
   <img src="https://img.shields.io/badge/YARA-Pattern_Matching-5C6BC0?style=flat-square" alt="YARA"/>
   <img src="https://img.shields.io/badge/VirusTotal-API_Threat_Intel-3949AB?style=flat-square&logo=virustotal&logoColor=white" alt="VirusTotal"/>
   <img src="https://img.shields.io/badge/Any.Run-Interactive_Sandbox-0288D1?style=flat-square" alt="Any.Run"/>
@@ -175,7 +190,7 @@ A virtualized enterprise environment deployed to simulate real-world attacks via
                                       ▼
                         ┌───────────────────────────┐
                         │   SECURITY OPS / SIEM     │
-                        │   - Wazuh Manager 4.x     │
+                        │   - AegisGraph & Wazuh 4.x│
                         │   - Splunk Enterprise     │
                         │   - Zeek Sensor (TAP)     │
                         │   - Elasticsearch + Kibana│
@@ -185,6 +200,24 @@ A virtualized enterprise environment deployed to simulate real-world attacks via
 ---
 
 ## 📁 Key Technical Repositories & Security Projects
+
+### 🛡️ [aegisgraph-soc](https://github.com/icebergf6/aegisgraph-soc)
+**Next-Gen Graph-Correlated SIEM & Autonomous SOAR Platform**
+- **Architecture & Highlights**:
+  - Transforms disconnected event logs into an interactive **Cytoscape.js multi-hop attack graph**, illuminating root causes and blast radius (*Process $\rightarrow$ Network $\rightarrow$ Credential Dump*).
+  - Built-in **Sigma Detection Rule Engine** with hot-reload compiler, syntax validation, and real-time alert trigger correlation.
+  - Full **MITRE ATT&CK Matrix coverage** mapping, automated **STIX 2.1 CTI bundle export**, and DEFCON threat posture level calculation.
+  - **Autonomous SOAR Containment**: Executes single-action and multi-step containment playbooks (host isolation, process termination, egress IP blocking).
+  - Includes a real-time Python endpoint sensor streaming live host processes and network sockets with zero page refresh.
+- **Tech Stack**: `Python`, `FastAPI`, `Cytoscape.js`, `Sigma Engine`, `STIX 2.1`, `Pytest`, `Netlify`.
+
+### 🤖 [gemini-sec-agent](https://github.com/icebergf6/gemini-sec-agent)
+**Autonomous AI-Powered Cybersecurity & DevSecOps Terminal Agent**
+- **Architecture & Highlights**:
+  - Autonomous terminal-based security assistant powered by **Google Gemini API** with native function-calling and automated API key rotation.
+  - Executes contextual triage, script deobfuscation (PowerShell / Bash base64 cradles), and automated log analysis directly from the CLI.
+  - Assists SOC analysts in generating tailored Sigma/YARA rules and structuring incident post-mortem documentation.
+- **Tech Stack**: `JavaScript`, `Node.js`, `Google Gemini API`, `CLI DevSecOps Tooling`.
 
 ### 🛡️ [soc-analyst-portfolio](https://github.com/icebergf6/soc-analyst-portfolio)
 **Enterprise Defensive Security Showcase, SIEM Sandbox & Homelab Documentation**
